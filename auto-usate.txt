@@ -1,0 +1,13 @@
+Tabella: auto
+
+id: SMALLINT, PK
+marca: VARCHAR(50), NOT NULL
+modello: VARCHAR(50), NOT NULL
+anno_produzione: YEAR, NOT NULL
+chilometraggio: MEDIUMINT, NOT NULL
+tipo_carburante: VARCHAR(50), NOT NULL
+colore: VARCHAR(50), NOT NULL
+prezzo: FLOAT(8, 2), NOT NULL
+descrizione: TEXT, NULL
+stato: VARCHAR(50), NOT NULL
+targa: VARCHAR(10), NOT NULL, UNIQUE
